@@ -1,5 +1,16 @@
 function Info() {
-  return <h1>This is the Info section</h1>;
+  return (
+    <>
+      <img className="profile-pic" src="" />
+      <p className="name">Siddharth Panjwani</p>
+      <p className="role">Frontend Developer</p>
+      <p className="website-name">siddharthpanjwani.website</p>
+      <div className="buttons-container">
+        <button>Email</button>
+        <button>LinkedIn</button>
+      </div>
+    </>
+  );
 }
 
 export default Info;

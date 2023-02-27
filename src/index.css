@@ -12,4 +12,10 @@ body {
 
 .card-container {
   border: 1px dotted red;
+  width: 317px;
+}
+
+.profile-pic {
+  height: 317px;
+  width: 317px;
 }
