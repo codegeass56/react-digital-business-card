@@ -124,6 +124,10 @@ button>span {
   border-radius: 6px;
 }
 
+.about-section {
+  margin-top: 25px;
+}
+
 .about-section,
 .interest-section {
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -146,4 +150,23 @@ button>span {
   font-weight: 400;
   margin-top: 0px;
   color: #4A4E74;
+}
+
+.footer-section {
+  background: #D5D4D8;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 31px;
+}
+
+.fa-2xl {
+  color: darkgray;
+  margin-right: 24px;
+}
+
+.footer-section>i:last-child {
+  margin-right: 0;
 }
