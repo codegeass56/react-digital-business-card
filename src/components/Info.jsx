@@ -8,8 +8,14 @@ function Info() {
       <p className="role">Frontend Developer</p>
       <p className="website-name">siddharthpanjwani.website</p>
       <div className="buttons-container">
-        <button>Email</button>
-        <button>LinkedIn</button>
+        <button className='mail-btn'>
+          <i class="fa-solid fa-envelope fa-lg"></i>
+          <span className='email-btn-text'>Email</span>
+        </button>
+        <button className='linkedin-btn'>
+          <i class="fa-brands fa-linkedin fa-lg"></i>
+          <span className='linkedin-btn-text'>LinkedIn</span>
+        </button>
       </div>
     </>
   );
