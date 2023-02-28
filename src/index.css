@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
 html {
   height: 100%;
 }
@@ -12,10 +17,53 @@ body {
 
 .card-container {
   border: 1px dotted red;
-  width: 317px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  width: 320px;
 }
 
 .profile-pic {
-  height: 317px;
-  width: 317px;
+  height: 400px;
+  width: 320px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 700;
+  color: #2B283A;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 6.19px;
+}
+
+.role {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F47D27;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.website-name {
+  font-size: 10.24px;
+  font-weight: 400;
+  text-align: center;
+  color: #4A4E74;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 115px;
+  height: 34px;
+}
+
+button:first-child {
+  margin-right: 17px;
 }

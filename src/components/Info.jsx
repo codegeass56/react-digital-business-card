@@ -1,7 +1,9 @@
+import profilePic from '../assets/Skp.jpg'
+
 function Info() {
   return (
     <>
-      <img className="profile-pic" src="" />
+      <img className="profile-pic" src={profilePic} />
       <p className="name">Siddharth Panjwani</p>
       <p className="role">Frontend Developer</p>
       <p className="website-name">siddharthpanjwani.website</p>
