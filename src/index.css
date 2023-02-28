@@ -124,16 +124,22 @@ button>span {
   border-radius: 6px;
 }
 
-.about-section {
-  margin-top: 25px;
+.info-section {
+  margin-bottom: 25px;
 }
 
-.about-section,
 .interest-section {
   font-family: Inter, Arial, Helvetica, sans-serif;
   height: 82px;
   width: 247px;
-  margin: 0 auto;
+  margin: 0 auto 31px auto;
+}
+
+.about-section {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  height: 82px;
+  width: 247px;
+  margin: 0 auto 13px auto;
 }
 
 .about-section-heading,
@@ -142,6 +148,7 @@ button>span {
   font-size: 16px;
   color: #2B283A;
   margin-bottom: 5px;
+  margin-top: 0px;
 }
 
 .about-section-content,
@@ -159,7 +166,6 @@ button>span {
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 10px 10px;
-  margin-top: 31px;
 }
 
 .fa-2xl {
